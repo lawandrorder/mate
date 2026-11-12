@@ -24,9 +24,6 @@ This repository is the open-source **starter** for Mate: original icons in the m
 From [mate.fm](https://mate.fm/):
 
 > Your shopping agent with 200k merchant partnerships. Text Mate before you shop to save.
-
-The homepage also shows a live store-contact counter, counted hourly. When this snapshot was prepared (12 November 2026, Europe/Helsinki), that counter read **201,740**. The number moves; don’t treat the snapshot as a fixed metric.
-
 Cashback and codes are offered on request, wherever you shop online. The site lists, among others: Nature INT, NIKE, The New Yorker, Walmart, Dell, Cheerble, SEMrush, Verso, Casper, Slice, Charity: Water, MyFonts.
 
 mate.fm marks its illustrated conversations as fictional. Example codes, deliveries and cashback on the marketing site — and every demo reply in this starter — are **not** real offers.
