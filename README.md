@@ -186,4 +186,4 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT
 
 Product copy and the public store count above are taken from [mate.fm](https://mate.fm/). The logo mark matches the public mark at `https://mate.fm/icon.svg`. Icons in `assets/icons/` are original. This repo does not include third-party merchant logos.
 
-built with insights bot
+
