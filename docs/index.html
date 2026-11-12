@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mate — Your mate while you shop</title>
+    <meta name="description" content="Your personal shopping agent with 200k merchant partnerships. Text Mate before you shop to save." />
+    <meta property="og:title" content="Your mate while you shop." />
+    <meta property="og:description" content="Your personal shopping assistant. Text Mate before you shop to save." />
+    <meta property="og:image" content="assets/social-preview.png" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-sans/style.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <a class="wordmark" href="https://mate.fm/">
+        <img src="assets/logo.svg" width="28" height="28" alt="" />
+        mate
+      </a>
+      <nav>
+        <a href="https://mate.fm/">mate.fm</a>
+        <a href="https://github.com/YOUR-USERNAME/mate">GitHub</a>
+        <a class="btn" href="https://mate.fm/#signup">Get early access</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p class="pill">Open-source starter · live product on mate.fm</p>
+      <h1>Your mate<br />while you shop.</h1>
+      <p class="lede">
+        Your shopping agent with 200k merchant partnerships.<br />
+        Text Mate before you shop to save.
+      </p>
+      <div class="cta">
+        <a class="btn solid" href="https://mate.fm/">Text Mate on mate.fm</a>
+        <a class="btn ghost" href="https://github.com/YOUR-USERNAME/mate">View the starter repo</a>
+      </div>
+    </section>
+
+    <section class="network">
+      <p class="kicker">Live from Mate’s contacts · counted hourly</p>
+      <h2>Mate has a contact at 200k+ stores.</h2>
+      <p>
+        Cashback and codes on request, wherever you shop online. The homepage
+        on <a href="https://mate.fm/">mate.fm</a> shows a live counter (it was
+        201,740 when this page was prepared on 12 November 2026). That figure
+        changes; treat it as a live count, not a frozen claim.
+      </p>
+      <p class="among">
+        Among them, the site lists: Nature INT, NIKE, The New Yorker, Walmart,
+        Dell, Cheerble, SEMrush, Verso, Casper, Slice, Charity: Water, MyFonts.
+      </p>
+    </section>
+
+    <section class="features" id="how">
+      <h2>How Mate works</h2>
+      <p class="lede">Text Mate before you shop. Here’s what you get back.</p>
+      <div class="grid">
+        <article>
+          <img src="assets/icons/cashback.svg" alt="" width="40" height="40" />
+          <p class="num">01</p>
+          <h3>Cashback when you text first</h3>
+          <p>Text Mate before you buy. It sends you the link that tracks your order, and the cashback lands in your balance.</p>
+        </article>
+        <article>
+          <img src="assets/icons/coupon.svg" alt="" width="40" height="40" />
+          <p class="num">02</p>
+          <h3>Discount codes generated for you</h3>
+          <p>Tell Mate where you’re shopping. It gets you a discount code made just for you.</p>
+        </article>
+        <article>
+          <img src="assets/icons/package.svg" alt="" width="40" height="40" />
+          <p class="num">03</p>
+          <h3>Every package, tracked</h3>
+          <p>A text when it ships and when it’s at your door. Mate can tell your room-mate too.</p>
+        </article>
+        <article>
+          <img src="assets/icons/price-drop.svg" alt="" width="40" height="40" />
+          <p class="num">04</p>
+          <h3>Price drop alerts</h3>
+          <p>Send Mate something you’re eyeing. It watches the price and texts you the moment it drops.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="thread" aria-label="Illustrative conversation">
+      <p class="kicker">Illustrative conversation. Example codes, deliveries and cashback are fictional.</p>
+      <div class="phone">
+        <div class="bar">
+          <img src="assets/logo.svg" width="24" height="24" alt="" />
+          <strong>Mate</strong>
+        </div>
+        <div class="you">any deals at the store I’m heading to?</div>
+        <div class="them">In the live product, Mate would send a tracked link and, when there’s one, a code made for you.</div>
+        <div class="them">This page does not show a real code or a real cashback amount — mate.fm marks those threads as fictional too.</div>
+        <div class="you">got it. I’ll text Mate before I buy.</div>
+        <div class="them">That’s the job.</div>
+      </div>
+    </section>
+
+    <section class="starter">
+      <h2>Run the starter on your machine</h2>
+      <p class="lede">
+        This GitHub Pages site ships with the open-source Mate starter: a small
+        text agent, a web chat demo, a Twilio webhook stub, and original icons
+        in the mate.fm palette. Demo providers are labeled. They do not pay
+        cashback or issue live merchant codes.
+      </p>
+      <pre><code>git clone https://github.com/YOUR-USERNAME/mate.git
+cd mate
+python -m mate serve
+# then open http://127.0.0.1:8080</code></pre>
+      <p>
+        Intents the starter understands: <code>cashback at &lt;store&gt;</code>,
+        <code>code for &lt;store&gt;</code>, <code>track &lt;number&gt;</code>,
+        <code>watch &lt;url&gt;</code>.
+      </p>
+    </section>
+
+    <footer>
+      <a class="wordmark" href="https://mate.fm/">
+        <img src="assets/logo.svg" width="24" height="24" alt="" />
+        mate
+      </a>
+      <p>
+        <a href="https://joincheckmate.com/terms-conditions">Terms and Conditions</a>
+        ·
+        <a href="https://joincheckmate.com/privacy-policy">Privacy Policy</a>
+        ·
+        <a href="https://github.com/YOUR-USERNAME/mate">GitHub</a>
+      </p>
+      <p class="credit">built with insights bot · MIT License</p>
+    </footer>
+  </body>
+</html>

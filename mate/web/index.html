@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mate — demo chat</title>
+    <meta name="description" content="Starter demo of Mate, your mate while you shop. Replies are labeled demos, not live offers." />
+    <link rel="icon" href="/assets/brand/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/geist@1.3.1/dist/fonts/geist-sans/style.min.css" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <a class="brand" href="https://mate.fm/" target="_blank" rel="noopener">
+        <img src="/assets/brand/logo.svg" width="32" height="32" alt="" />
+        <span>mate</span>
+      </a>
+      <p class="badge">Starter demo</p>
+    </header>
+
+    <main class="shell">
+      <section class="intro">
+        <h1>Your mate while you shop.</h1>
+        <p>
+          This is the open-source starter running on your machine. It understands
+          the same kinds of texts as the product on
+          <a href="https://mate.fm/">mate.fm</a>. Replies are
+          <strong>demos</strong> — they are not live cashback, codes, or tracking.
+        </p>
+      </section>
+
+      <section class="phone" aria-label="Demo conversation with Mate">
+        <div class="phone-bar">
+          <img src="/assets/brand/logo.svg" width="28" height="28" alt="" />
+          <div>
+            <strong>Mate</strong>
+            <span>Demo thread</span>
+          </div>
+        </div>
+        <div id="log" class="log" role="log" aria-live="polite"></div>
+        <form id="form" class="composer">
+          <label class="sr-only" for="text">Message</label>
+          <input id="text" name="text" autocomplete="off" placeholder="Text Mate before you shop…" required />
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <ul class="chips" aria-label="Try a demo message">
+        <li><button type="button" data-fill="cashback at Demo Shop">cashback at Demo Shop</button></li>
+        <li><button type="button" data-fill="code for Demo Shop">code for Demo Shop</button></li>
+        <li><button type="button" data-fill="track DEMO-123456">track DEMO-123456</button></li>
+        <li><button type="button" data-fill="watch https://shop.example/nimbus-lamp">watch a demo link</button></li>
+        <li><button type="button" data-fill="tell my room-mate">tell my room-mate</button></li>
+        <li><button type="button" data-fill="help">help</button></li>
+      </ul>
+    </main>
+
+    <footer>
+      <p>
+        Conversations here are a local demo. Example codes, deliveries and cashback
+        are fictional — the same caution mate.fm puts on its illustrated threads.
+      </p>
+      <p>built with insights bot · <a href="https://mate.fm/">mate.fm</a></p>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
