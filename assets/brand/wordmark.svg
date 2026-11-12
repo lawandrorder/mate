@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" role="img" aria-label="mate">
+  <circle cx="40" cy="40" r="40" fill="#2E94D6"/>
+  <path transform="translate(0,0) scale(0.25)" d="M195.199 122.44L128.695 198.971V151.324H73.645V203.681L142.951 203.69C170.718 203.69 193.941 192.578 210.619 173.39L254.895 122.44H195.199Z" fill="#FFFFFF"/>
+  <text x="98" y="57" font-family="Geist, Inter, Helvetica, Arial, sans-serif" font-size="52" font-weight="700" fill="#0D0D0D" letter-spacing="-1.5">mate</text>
+</svg>
